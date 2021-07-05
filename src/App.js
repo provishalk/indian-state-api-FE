@@ -1,23 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
-
-function App() {
+import StatesForm from "./components/StatesForm";
+import React,{useState,useEffect} from "react";
+const App = () => {
+  const [stateNames, setStateNames] = useState([])
+    useEffect(() => {
+        fetch('https://indian-state-api.herokuapp.com/getAllState')
+            .then(response => response.json())
+            .then(data => setStateNames(data));
+    }, [])
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div >
+      <StatesForm stateNames={stateNames}/>
     </div>
   );
 }
