@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/indian-state-api-FE/static/css/main.195d6b55.chunk.css",
+    "main.js": "/indian-state-api-FE/static/js/main.e2c42f6e.chunk.js",
+    "main.js.map": "/indian-state-api-FE/static/js/main.e2c42f6e.chunk.js.map",
+    "runtime-main.js": "/indian-state-api-FE/static/js/runtime-main.e690c5e0.js",
+    "runtime-main.js.map": "/indian-state-api-FE/static/js/runtime-main.e690c5e0.js.map",
+    "static/js/2.c41e0ef1.chunk.js": "/indian-state-api-FE/static/js/2.c41e0ef1.chunk.js",
+    "static/js/2.c41e0ef1.chunk.js.map": "/indian-state-api-FE/static/js/2.c41e0ef1.chunk.js.map",
+    "static/js/3.7f6d81f7.chunk.js": "/indian-state-api-FE/static/js/3.7f6d81f7.chunk.js",
+    "static/js/3.7f6d81f7.chunk.js.map": "/indian-state-api-FE/static/js/3.7f6d81f7.chunk.js.map",
+    "index.html": "/indian-state-api-FE/index.html",
+    "static/css/main.195d6b55.chunk.css.map": "/indian-state-api-FE/static/css/main.195d6b55.chunk.css.map",
+    "static/js/2.c41e0ef1.chunk.js.LICENSE.txt": "/indian-state-api-FE/static/js/2.c41e0ef1.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e690c5e0.js",
+    "static/js/2.c41e0ef1.chunk.js",
+    "static/css/main.195d6b55.chunk.css",
+    "static/js/main.e2c42f6e.chunk.js"
+  ]
+}
